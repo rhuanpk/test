@@ -7,3 +7,6 @@
 [submodule "flipe124"]
 	path = flipe124
 	url = https://github.com/flipe124/flipe124.git
+[submodule "xpto"]
+	path = xpto
+	url = https://github.com/rhuanpk/xpto.git
