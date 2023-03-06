@@ -4,3 +4,6 @@
 [submodule "temporary"]
 	path = temporary
 	url = https://github.com/rhuanpk/temporary.git
+[submodule "flipe124"]
+	path = flipe124
+	url = https://github.com/flipe124/flipe124.git
