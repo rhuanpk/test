@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "--- FROM AppRun ---"
+SELF="$(readlink -f "$0")"
+echo "SELF: $SELF"
+HERE="${SELF%/*}"
+echo "HERE: $HERE"
+EXEC="${HERE}/usr/bin/script.sh"
+echo "EXEC: $EXEC"
+exec "${EXEC}"

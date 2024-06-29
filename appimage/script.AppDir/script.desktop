@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Script
+Icon=script
+Exec=script.sh
+Terminal=true
+Categories=Utility
+X-AppImage-Version=1.0.0
