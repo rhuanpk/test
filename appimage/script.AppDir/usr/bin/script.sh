@@ -1,4 +1,5 @@
 #!/bin/bash
-echo '--- FROM script.sh ---'
 curl wttr.in
+env
+echo '--- FROM script.sh ---'
 exec $SHELL
