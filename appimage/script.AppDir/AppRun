@@ -6,4 +6,8 @@ HERE="${SELF%/*}"
 echo "HERE: $HERE"
 EXEC="${HERE}/usr/bin/script.sh"
 echo "EXEC: $EXEC"
+echo '---------------------------------------- FROM APPRUN'
+script.sh
+echo '---------------------------------------- FROM APPRUN'
 exec "${EXEC}"
+echo '---------------------------------------- FROM APPRUN'
