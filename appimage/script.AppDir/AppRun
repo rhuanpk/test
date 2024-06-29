@@ -1,15 +1,5 @@
-#!/bin/bash
-echo '--- FROM AppRun ---'
-SELF="$(readlink -f "$0")"
-echo "SELF: $SELF"
-HERE="${SELF%/*}"
-echo "HERE: $HERE"
-EXEC="${HERE}/usr/bin/script.sh"
-echo "EXEC: $EXEC"
-echo '---------------------------------------- FROM APPRUN'
+#!/usr/bin/bash
+export PATH="$APPDIR/usr/bin:$PATH"
+echo "---> FROM: $(readlink -f "$0")"
 printenv PATH
-echo '---------------------------------------- FROM APPRUN'
-script.sh
-echo '---------------------------------------- FROM APPRUN'
-exec "${EXEC}"
-echo '---------------------------------------- FROM APPRUN'
+exec script
