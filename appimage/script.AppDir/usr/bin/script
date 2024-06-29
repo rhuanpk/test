@@ -3,4 +3,5 @@
 #printenv PATH
 curl ipecho.net/plain
 echo $'\nhello world'
+tput cup `tput lines`; read -sn 1
 #exec $SHELL
