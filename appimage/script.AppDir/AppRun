@@ -1,5 +1,0 @@
-#!/usr/bin/bash
-export PATH="$APPDIR/usr/bin:$PATH"
-#echo "---> FROM: $(readlink -f "$0")"
-#printenv PATH
-exec script
